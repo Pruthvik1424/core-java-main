@@ -2,7 +2,7 @@ package com.xworkz.examples;
 
 public class Buiscuit {
 	
-	public String Brand="parle-g";
-	public double Cost=25;
+	public String Brand;
+	public double Cost;
 
 }
