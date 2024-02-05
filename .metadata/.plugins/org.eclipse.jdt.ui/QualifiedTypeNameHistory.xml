@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xworkz.constructors.Soppu"/>
+    <fullyQualifiedTypeName name="com.xworkz.constructors.Vegitables"/>
+    <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Snake"/>
+    <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Cow"/>
+    <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Tiger"/>
+    <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Dog"/>
+</qualifiedTypeNameHistroy>
