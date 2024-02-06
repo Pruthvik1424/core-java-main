@@ -6,7 +6,6 @@ public class Snake1 {
 	
 	public Snake1() {
 		super();
-		Snake snake =new Snake();
 	}
 
 //	public Snake() {

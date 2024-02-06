@@ -6,4 +6,12 @@
     <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Cow"/>
     <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Tiger"/>
     <fullyQualifiedTypeName name="com.xworkz.accessSpecifier.add.Dog"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.Window"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.WoodWindow"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.CanonPrinter"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.SmartCanonPrinter"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.Printer"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.SocialMedia"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.Whatsapp"/>
+    <fullyQualifiedTypeName name="com.xworkz.windows.add.Instagram"/>
 </qualifiedTypeNameHistroy>
