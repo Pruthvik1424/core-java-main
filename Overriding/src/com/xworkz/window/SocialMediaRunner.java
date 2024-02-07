@@ -41,6 +41,7 @@ public class SocialMediaRunner {
 		insta1.call();
 		insta1.chat();
 		insta1.GroupChats();
+		
 	    ((Whatsapp) insta1).VideoCall(); // here typecasting is happend,....., 
 	    ((Instagram) insta1).Status();
 	    System.out.println("%%%%%%%%%%%%%%%%%%%%%%%");

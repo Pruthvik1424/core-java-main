@@ -14,4 +14,9 @@
     <fullyQualifiedTypeName name="com.xworkz.windows.add.SocialMedia"/>
     <fullyQualifiedTypeName name="com.xworkz.windows.add.Whatsapp"/>
     <fullyQualifiedTypeName name="com.xworkz.windows.add.Instagram"/>
+    <fullyQualifiedTypeName name="com.xworkz.handwash.Handwasher"/>
+    <fullyQualifiedTypeName name="com.xworkz.handwash.Handwash"/>
+    <fullyQualifiedTypeName name="com.xworkz.handwash.Soap"/>
+    <fullyQualifiedTypeName name="com.xworkz.handwash.Sanitizer"/>
+    <fullyQualifiedTypeName name="com.xworkz.handwash.Lux"/>
 </qualifiedTypeNameHistroy>
