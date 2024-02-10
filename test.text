@@ -1,0 +1,246 @@
+1. java -> java is a object oriented programming language 
+           it is easy to read , easy to understand compare to other 
+           programing languages 
+           * java is objectoriented language bcz java will always work with respect to objects states , properties and               behaviours
+java is build by james gosline 
+java is used to build web applications, mobile applications , destop applications etc....
+   
+   javac -> javac is a compiler of java 
+ when we use javac with class name then only java compiler will compile the code 
+java compiler will convert the java source code into byte code understanding code after converstion only execution is happening 
+when java compiler compiles the code then .class file will be created
+with .class file we will run the code anywhere else means we can transfer the .class file to any other device or desktop and we can run it without using .java file .
+
+2. JDK ,JRE , JVM 
+
+JDK->
+JDK is stands for java development kit 
+JDK is having  JRE(java run time enviornment + Development tools + libraries  )
+java development kit is used to develop an application using java programs
+java development kit is can visible 
+it is having some libraries and development tools 
+
+JRE->
+JRE stands for java run time enviornment 
+JRE is a interrelated part of JDK 
+it is used to run the java codes 
+java compiler will convert the java source code into java byte code 
+if we need to run the byte code  we need JRE
+JRE is having jvm + libraries class + development tools 
+
+JVM ->
+jvm is stands for java vertual machine
+in name it self says jvm is vertual means it is not physically exist
+it will executes byte codes 
+jvm is a platform dependent 
+jvm will Loads code ,verifies code ,executes code and it will provides runtime environment 
+
+
+3. diff btwn .classfile and .java file 
+
+.class file 
+.class file will creat when javac compiles the code 
+.class file is nothing but byte code 
+.class file will holds the byte code 
+
+
+.java files 
+it is nothing but what code we are going to write in java file that will be tha .java file 
+.java files we are going to creat
+.java files holds the java source code 
+
+
+4. ID'Es
+   visual code
+   eclips 
+   .net 
+   intellij
+
+5. variables 
+   variables is nothing but it is a container which data types can be stored into it
+   it may be premitive data types or it may be non premitive data types
+    syntax of variable declaration 
+    type of the variable ref name = value of the variable;
+    ex;  String name = "pruthvik";
+    here String -> is a premitive data type 
+          Name -> name of the variable 
+          pruthvik -> is a values of the variables
+
+   types of variables 
+ there are four types  of variables 
+ 1. local variables 
+    A variable declared inside the body of the method is called local variable
+You can use this variable only within that method and the other methods 
+ 
+2. instance variables
+A variable declared inside the class but outside the body of the method, is called an instance variable.
+
+3.static variables 
+A variable that is declared as static is called a static variable. 
+
+4.parameterized variables
+   variable having parameters is called parameterized variables 
+
+
+6. object means real world entities like mobile , laptops....
+  that means java will dependent to the objects propertis and behaviors 
+Object
+Class
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+every object must have above mentioned properties 
+without these properties object cannot be determined
+
+7.error
+   
+
+ 
+
+
+8. data types 
+   data types is a type 
+  Data types specify the different sizes and values that can be stored in the variable
+ data types having two diff types
+a. premitive data types
+   here having 8 premetive data types 
+which is alrady defined in java files 
+we can see this data types in java.lang file 
+namely
+
+int
+short
+long
+byte
+boolean
+double
+char
+string
+
+b. non perimitive data types 
+ non premoitive data types is user defined / developer defined 
+ it is not exist 
+here we need to specify the data types which can be used
+what ever we use after the class we can named it as non premitive data types
+
+
+9. dot operatores is used to connecting one another
+  ex; system.out.println("");
+
+
+10.
+platform independent
+object oriented
+java is simple
+understandable
+portable
+interpreted
+
+11. Array is used to store the multiple values of different data typs in on variables
+syntax ;
+example 
+int intArray[];
+intArray = new int[20]
+
+12. object -> object is a realworld entity 
+    instance of class
+object is a class
+object is a super class for every class which is created by us 
+ object class is present in java.lang
+object is predefined
+object is having states and behaviours
+
+classes->
+class is a class
+class is blueprint for which object to be created
+A Class in Java can contain->
+Data member
+Method
+Constructor
+Interface
+ syntax for class declaration
+class Lion{
+    String Color;
+   public void roar(){
+   }
+}
+
+
+13.  keywords;
+keywords can be used as class, methods ,variables or any otheridentifiers
+
+int -> data type which can store the non decimal integer values 
+short
+default ->pecifies the default block of code in a switch statement
+boolean -> it is a data type it will store true or false values
+enum  -> declaring unchangable types
+public -> it is a access specifiers which can controls the class, methods, variables to use it 
+private -> it is a access specifiers which can controls the class, methods, variables to use it with in the class which 
+          is private defined
+protected
+package
+if
+else
+do
+
+14.constructors ;
+   constructor is a method 
+   constructors is a block of code  here we can initialize the properties of objects
+   constructor is used to object creation
+   it is special type of method bcz here we use new keyword to creat an instance of an oobjects 
+   
+  constructor chaining 
+   it is nothing but using one constructor from the another constructor is called constructor chaining
+   here to types of constructor is there
+   1.this()
+ this() is a keyword 
+ we are using this keyword when the use of another constructor within the same class
+at least one method  should not having this () chaining
+   2.super()
+super() is keyword 
+we are using this keyword when the use of another constructor in diiferent class within the samepackage 
+
+constructor chaining is always  the first line in the constructors
+
+types->
+single constructor-> it is having one superclass and one subclass
+multi level constructor ->  here it is hhaving single super class with multiple subclass and subclass having multiple 
+                         child classes
+hyrarical -> it is having single superclass and multiple subclasses
+hybrid -> it is having multiple parent and child class 
+          itr is not done because infinite loop will creat hence we are unable to consider this type 
+
+
+15.  methods are static bcz we can use the static keyword in different parts of a Java program like variables, methods,
+      and static blocks.
+when we create a static variables, its value remains constant across all other classes, and we do not have to create an instance to use the variable
+so main method will always static bcz when we are going to execute the code then jvm will look for the only main method on that time if the method is static then jvm is need not to create an instance of main method just bcz of static we used .
+pre-defined
+user-defined
+static method
+
+
+16.   
+public class ArrayLength { 
+  
+public static void main(String[] args)   
+{   
+ 
+int[] values = { 12,3,2,45,6,7,6};     
+int arrayLength=values.length;     
+System.out.println("The lenght of the array is: " + arrayLength);   
+}   
+}
+
+
+17. method overloading->
+    it is nothing  but method having same name but differnt parameters 
+it willl increase the readability of the programs
+
+   method overriding
+subclass having same method as super classs then in order to use the properties of the super class in subclass the we are going to overriding the method 
+during overriding we can use @override it is optional we can use 
+another use of over ride  if we have protected method in super class in subclass we can change it to an public and we can use it 
+during execution jvm will decide to execute from super or subclass 
+
