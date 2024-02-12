@@ -19,4 +19,11 @@
     <fullyQualifiedTypeName name="com.xworkz.handwash.Soap"/>
     <fullyQualifiedTypeName name="com.xworkz.handwash.Sanitizer"/>
     <fullyQualifiedTypeName name="com.xworkz.handwash.Lux"/>
+    <fullyQualifiedTypeName name="com.xworkz.pillow.Pillow"/>
+    <fullyQualifiedTypeName name="com.xworkz.pillow.Pruthvi"/>
+    <fullyQualifiedTypeName name="com.xworkz.pillow.Airpillow"/>
+    <fullyQualifiedTypeName name="com.xworkz.pillow.Microfiberpillow"/>
+    <fullyQualifiedTypeName name="com.xworkz.animals.Wildanimals"/>
+    <fullyQualifiedTypeName name="com.xworkz.animals.Tiger"/>
+    <fullyQualifiedTypeName name="com.xworkz.animals.Lion"/>
 </qualifiedTypeNameHistroy>
