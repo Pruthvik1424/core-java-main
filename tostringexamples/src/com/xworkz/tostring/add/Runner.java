@@ -14,7 +14,7 @@ public class Runner {
 		Colgate colgate = new Colgate();
 		System.out.println(colgate);
 		System.out.println(colgate.hashCode());
-		System.out.println("_______________________");
+		System.out.println("____________________________");
 		
 		Tie tie = new Tie();
 		System.out.println(tie);
@@ -24,12 +24,12 @@ public class Runner {
 		Battery battery = new Battery();
 		System.out.println(battery);
 		System.out.println(battery.hashCode());
-		System.out.println("_______________________");
+		System.out.println("_____________________________");
 		
         Switchboard switchboard = new Switchboard();
         System.out.println(switchboard);
         System.out.println(switchboard.hashCode());
-        System.out.println("_________________________");
+        System.out.println("_____________________________");
         
         Table table = new Table();
         System.out.println(table);
