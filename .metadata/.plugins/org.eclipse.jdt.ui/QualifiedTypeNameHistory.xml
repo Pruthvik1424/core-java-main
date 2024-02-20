@@ -51,4 +51,6 @@
     <fullyQualifiedTypeName name="com.xworkz.tostring.Ring"/>
     <fullyQualifiedTypeName name="com.xworkz.tostring.Paint"/>
     <fullyQualifiedTypeName name="com.xworkz.tostring.Belt"/>
+    <fullyQualifiedTypeName name="com.xworkz.examples.Glass"/>
+    <fullyQualifiedTypeName name="com.xworkz.examples.Belt"/>
 </qualifiedTypeNameHistroy>
