@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vehicle service form</title>
+
+</head>
+<body>
+<h2>Car service Booking form</h2>
+<form action="VehicleService" method="post">
+Select an appointment date
+<input type="datetime" name ="date">
+<br>
+Vehicle type
+<input type="radio" value="sedan" name="type">Sedan
+<input type="radio" value="Coupe" name="type">Coupe
+<input type="radio" value="SportsCar" name="type">Sports car
+<input type="radio" value="Wagon" name="type">Wagon
+<input type="radio" value="hatchback" name="type">Hatchback
+<input type="radio" value="SportUtilityVehicle" name="type">Sport Utility Vehicle(SUV)
+<input type="radio" value="minivan" name="type">Minivan
+<input type="radio" value="pickupTruck" name="type">Pickup Truck
+<input type="radio" value="hybrid" name="type">Hybrid/Electric
+<input type="radio" value="other" name="type">other
+<br>
+Vehicle Number
+<input type="text" name="number">
+<br>
+Make
+<input type="text" name="make">
+<br>
+Type of Services
+<input type="checkbox" name="services">Check the engine oil<br>
+<input type="checkbox" name="services">Change the engine oil<br>
+<input type="checkbox" name="services">oil fiter replacement<br>
+<input type="checkbox" name="services">Air filter  replacemnet<br>
+<input type="checkbox" name="services">Fuel filter replacement<br>
+<input type="checkbox" name="services">Replace the aircon filter<br>
+<input type="checkbox" name="services"> check tier consition<br>
+<h4>Customer information</h4>
+Name<input type ="text" name="name">
+<br>
+Phone Number <input type="number" name="phone">
+<br>
+Email<input type="email" name="email">
+<br>
+Address<input type ="text" name="address">
+<br>
+
+
+<input type="submit" value="BookNow">
+ 
+
+
+
+
+</form>
+
+</body>
+</html>

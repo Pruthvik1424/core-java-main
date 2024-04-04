@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Address Form</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script >
+
+function SubmitFunction()
+{
+	
+	console.log("running....");
+	var firstName=document.getElementById("firstname")
+	console.log(firstName);
+	console.log(firstName.value);
+	if(firstName.value==""){
+		console.log("please enter the first name");
+		var firstError = document.getElementById("firstError");
+		firstError.innerHTML="Please enter the first name";
+		firstError.style.color="red";
+	}
+	
+	
+	var lastName = document.getElementById("lastname");
+	console.log(lastName);
+	console.log(lastName.value);
+	if(lastName.value==''){
+		console.log("Please enter the last name");
+		var lastError = document.getElementById("lastError");
+		lastError.innerHTML = "Please enter the last name";
+		lastError.style.color ="red"
+	}
+	var city=document.getElementById("city")
+	console.log(city.value)
+	if(city.value=="")
+		{
+		 console.log("Please Enter the City")
+		 var cityError=document.getElementById("cityError");
+			 cityError.innerHTML="Please Enter the City"
+				 cityError.style.color='red'
+		 
+		}
+	
+	var district=document.getElementById("district")
+	console.log(district.value)
+	if(district.value=='')
+	{
+		console.log("Please Select Dist")
+		var districtError=document.getElementById("districtError")
+		districtError.innerHTML="Please Enter Dist"
+		districtError.style.color='red'
+	}
+	
+	var state=document.getElementById("state")
+	console.log(state.value)
+	if(state.value=='')
+	{
+		console.log("Please Select State")
+		var stateError=document.getElementById("stateError")
+		stateError.innerHTML="Please Enter Dist"
+		stateError.style.color='red'
+	}
+	
+
+	var zip=document.getElementById("zip")
+	console.log(zip.value)
+	if(zip.value=="")
+	{
+		var zipError=document.getElementById("zipError")
+		zipError.innerHTML="Please Enter Zip Code"
+		zipError.style.color='red'
+	}
+	
+	console.log(document.addressForm.Region)
+	console.log(document.addressForm.Region[0])
+	console.log(document.addressForm.Region[1])
+
+	console.log(document.addressForm.Region[0].checked)
+	console.log(document.addressForm.Region[1].checked)
+
+	if(document.addressForm.Region[0].checked==false &&
+	document.addressForm.Region[1].checked==false)
+	{
+		console.log("Please Select the Region")
+		var regionError=document.getElementById("regionError")
+		regionError.innerHTML="Please Select Region"
+		regionError.style.color='red'
+	}
+	
+	if(!checkbox.checked){
+		console.log("Please click checkox")
+		var checkboxError=document.getElementById("checkboxError")
+		checkboxError.innerHTML="Please Accept by click checkbox"
+		checkboxError.style.color='red'
+		//return;
+	}
+
+	
+	/* var city = document.getElementById("city");
+	console.log(city);
+	console.log(city.value);
+	
+	var district = document.getElementById("district");
+	console.log(district);
+	console.log(district.value);
+	
+	var Region = document.getElementById("Region");
+	console.log(Region);
+	console.log(Region.value);
+
+	var state = document.getElementById("state");
+	console.log(state);
+	console.log(state.value);
+	
+	var zip = document.getElementById("zip");
+	console.log(zip);
+	console.log(zip.value);
+	
+	var checkbox = document.getElementById("checkbox");
+	console.log(checkbox);
+	console.log(checkbox.value); */
+	
+}
+	
+	
+
+
+
+
+</script>
+
+</head>
+<nav class="navbar navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">HOME</a>
+   <form class="d-flex">
+      <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+   </form>
+  </div>
+</nav>
+<body class="container">
+<h2 style="text-align : center">ADDRESS FORM</h2>
+  <form class="row g-3" id="name" action="address" method="post" name="addressForm">
+  <div class="col-md-4" >
+    <label for="firstname" class="form-label" >First name</label>
+    <input type="text" name="firstName" class="form-control" id="firstname" value="" required>
+ 	<span id="firstError"></span>
+  </div>
+  <div class="col-md-4">
+    <label for="lastname" class="form-label">Last name</label>
+    <input type="text" class="form-control" name="lastName" id="lastname" value="" required>
+    <span id="lastError"></span>
+  </div>
+  
+  <div class="col-md-6">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" name="city" id="city" required>
+    <span id="cityError"></span>
+  </div>
+ 
+  <div class="col-md-3">
+    <label for="district" class="form-label">District</label>
+    <select class="form-select" id="district" name="district" required>
+      <option selected disabled value="">Choose...</option>
+      <option value="Chamarajanagar">Chamarajanagar</option>
+      <option value="Mysore">Mysore</option>
+      <option value="Banglore">Banglore</option>
+      <option value="Bagalkot">Bagalkot</option>
+      <option value="Gadag">Gadag</option>
+    </select>
+    <span id="districtError"></span>
+  </div>
+  
+  <div>
+  <span id="regionError"></span>
+  </div>
+  
+  
+  Region :<div class="form-check">
+  <input class="form-check-input" type="radio" name="Region" id="Region" value="">
+  <label class="form-check-label" for="hydkarnataka">
+    Hyd-karnataka
+  </label>
+</div>
+<div>
+  <span id="regionError"></span>
+  </div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Region" id="Region"  value="">
+  <label class="form-check-label" for="nonhydkarnataka">
+    Non-Hyd Karnataka
+  </label>
+</div>
+  <div class="col-md-3">
+    <label for="state" class="form-label">State</label>
+    <select class="form-select" id="state" name="state" required>
+      <option selected disabled value="">Choose...</option>
+      <option>Karnataka</option>
+      <option>Andra pradesh</option>
+      <option>Tamil nadu</option>
+      <option>Dheli</option>
+      <option>Goa</option>
+    </select>
+    <span id="stateError"></span>
+  </div>
+  <div class="col-md-3">
+    <label for="zip" class="form-label">Zip</label>
+    <input type="text" class="form-control" name="zip" id="zip" required>
+    <span id="zipError"></span>
+  </div>
+  <div class="col-12">
+    <label for="Select Checkbox">
+            <input type="checkbox" id="checkbox" value="" name="checkbox"> Agree To Terms and Conditions
+            <span id="checkboxError"></span>
+        </label>
+  </div>
+ <div>
+  <button type="submit" onclick="SubmitFunction()" value ="submit" class="btn btn-primary" >Submit</button>
+  </div>
+</form>
+  
+</body>
+</html>

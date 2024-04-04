@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Death certificate</title>
+</head>
+<body>
+<h2>Death Certificate Form</h2>
+
+<form action="deathcertificate" method="post">
+Name <input type="text" name="name" ><br>
+Death date <input type ="date" name="dod"><br>
+Gender <input type="radio" value="male" name="gender">male
+<input type="radio" value="female" name="gender">female<br>
+Place of death <input type ="text" name ="pod"><br>
+Father name <input type= "text" name ="father"><br>
+Mother name <input type ="text" name ="mother"><br>
+Husband/Wife name <input type ="text" name="husbandORwife"><br>
+Cause of Death
+ <select name ="causeofdeath">
+ <option value ="">--select--</option>
+<option>Accident</option>
+<option>Covid</option>
+<option>Diabitis</option>
+<option>Heart Attack</option>
+<option>Stroke</option>
+<option>Suicide</option>
+</select><br>
+Death Time <input type="time" name="Deathtime"><br>
+Date of Issuing <input type="date" name="doi">
+<br>
+
+<input type="submit" value="apply"> 
+
+</form>
+
+</body>
+</html>
